@@ -1,3 +1,12 @@
+# 可以先用 brew install subversion ，会安装大部分的依赖，其他的顺着报错走，大概是这几个 libutf8proc,apr,apr-util,libtool,autoconf,LZ4, # brew 不支持的可以用 macports
+# !!!!!!!!! 检测到错误记忆，1.10版本实际上是自己构建安装的，brew 不支持了 url "https://archive.apache.org/dist/subversion/subversion-1.10.0.tar.bz2"
+# !!!!!!!!! 检测到错误记忆，1.10版本实际上是自己构建安装的，brew 不支持了 url "https://archive.apache.org/dist/subversion/subversion-1.10.0.tar.bz2"
+# !!!!!!!!! 检测到错误记忆，1.10版本实际上是自己构建安装的，brew 不支持了 url "https://archive.apache.org/dist/subversion/subversion-1.10.0.tar.bz2"
+# !!!!!!!!! 检测到错误记忆，1.10版本实际上是自己构建安装的，brew 不支持了 url "https://archive.apache.org/dist/subversion/subversion-1.10.0.tar.bz2"
+# !!!!!!!!! 检测到错误记忆，1.10版本实际上是自己构建安装的，brew 不支持了 url "https://archive.apache.org/dist/subversion/subversion-1.10.0.tar.bz2"
+# !!!!!!!!! 检测到错误记忆，1.10版本实际上是自己构建安装的，brew 不支持了 url "https://archive.apache.org/dist/subversion/subversion-1.10.0.tar.bz2"
+
+
 class Subversion < Formula
   desc "Version control system designed to be a better CVS"
   homepage "https://subversion.apache.org/"
