@@ -1,4 +1,8 @@
-# 可以先用 brew install subversion ，会安装大部分的依赖，其他的顺着报错走，大概是这几个 libutf8proc,apr,apr-util,libtool,autoconf,LZ4, # brew 不支持的可以用 macports
+# 可以先用 brew install subversion ，会安装大部分的依赖，其他的顺着报错走，大概是这几个 libutf8proc,apr,apr-util,libtool,autoconf,LZ4, 
+# brew 不支持的可以用 macports
+# 默认不支持 http 需要 ./config --with-serf
+# get-deps.sh 获取的的1.3.8 与新版本的 openssl 无法构建，需要最新的 serf 1.3.10 https://serf.apache.org/download  https://www.apache.org/dist/serf/serf-1.3.10.zip
+# https://github.com/tholu/homebrew-tap/issues/8
 # !!!!!!!!! 检测到错误记忆，1.10版本实际上是自己构建安装的，brew 不支持了 url "https://archive.apache.org/dist/subversion/subversion-1.10.0.tar.bz2"
 # !!!!!!!!! 检测到错误记忆，1.10版本实际上是自己构建安装的，brew 不支持了 url "https://archive.apache.org/dist/subversion/subversion-1.10.0.tar.bz2"
 # !!!!!!!!! 检测到错误记忆，1.10版本实际上是自己构建安装的，brew 不支持了 url "https://archive.apache.org/dist/subversion/subversion-1.10.0.tar.bz2"
